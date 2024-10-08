@@ -1,0 +1,141 @@
+{
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "gradients": [
+                {
+                    "color": "#000",
+                    "gradient": "linear-gradient(180deg,rgb(228,238,240) 0%,rgb(179,214,221) 100%)",
+                    "name": "Color 1",
+                    "slug": "custom-color-1"
+                }
+            ],
+            "palette": [
+                {
+                    "color": "#49389d",
+                    "name": "Color 1",
+                    "slug": "custom-color-1"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "620px",
+            "wideSize": "1000px"
+        },
+        "spacing": {
+            "units": [
+                "%",
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+                    "name": "System Font",
+                    "slug": "system-font"
+                },
+                {
+                    "name": "Montserrat",
+                    "slug": "montserrat",
+                    "fontFamily": "Montserrat, sans-serif",
+                    "fontFace": [
+                        {
+                            "src": [
+                                "file:./assets/fonts/montserrat/montserrat-400-normal.woff2"
+                            ],
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Montserrat"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/montserrat/montserrat-500-normal.woff2"
+                            ],
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "Montserrat"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/montserrat/montserrat-600-normal.woff2"
+                            ],
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "Montserrat"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/montserrat/montserrat-700-normal.woff2"
+                            ],
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "Montserrat"
+                        }
+                    ]
+                }
+            ]
+        },
+        "useRootPaddingAwareAlignments": true
+    },
+    "styles": {
+        "color": {
+            "gradient": "var(--wp--preset--gradient--custom-color-1)",
+            "text": "var(--wp--preset--color--custom-color-1)"
+        },
+        "elements": {
+            "button": {
+                "color": {
+                    "text": "var(--wp--preset--color--white)"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--montserrat)",
+                    "fontStyle": "normal",
+                    "fontWeight": "700"
+                }
+            },
+            "caption": {
+                "color": {
+                    "text": "var(--wp--preset--color--luminous-vivid-orange)"
+                }
+            },
+            "heading": {
+                "color": {
+                    "text": "var(--wp--preset--color--custom-color-1)"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--custom-color-1)"
+                }
+            }
+        },
+        "spacing": {
+            "padding": {
+                "bottom": "24px",
+                "left": "0px",
+                "right": "0px",
+                "top": "24px"
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--montserrat)"
+        }
+    },
+    "templateParts": [
+        {
+            "area": "header",
+            "name": "header"
+        },
+        {
+            "area": "footer",
+            "name": "footer"
+        }
+    ],
+    "version": 3,
+    "$schema": "https://schemas.wp.org/wp/6.6/theme.json"
+}
